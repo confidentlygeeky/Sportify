@@ -1,0 +1,79 @@
+ <html>
+
+<head>
+	<title>SPORTIFY</title>
+
+<link rel="stylesheet" type="text/css" href="csslayout.css">
+
+<script>
+
+          function validateForm()
+          {
+            var email = document.forms["contact"]["email"].value;
+            var first_name = document.forms["contact"]["fname"].value;
+            var last_name = document.forms["contact"]["lname"].value;
+            var preference = document.forms["contact"]["con"].value;
+
+            var get = "0";
+
+            var atpos = email.indexOf("@");
+            var dotpos = email.indexOf(".");
+
+            if(atpos<5 || atpos>13)
+            {
+              if(atpos-dotpos<2){
+                get = "1";
+                alert("Invalid Email" + get);
+              }
+            }
+
+            if(get != "1")
+              document.forms["contact"].action = "contact.php";
+          }
+
+        </script>
+
+</head>
+
+<body style = "background: rgb(192,192,192)">
+
+	<!--Nav bar-->
+
+	<ul class="nav">
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="cric_home.html" target="blank">Cricket</a></li>
+  <li><a href="#">Football</a></li>
+  <li><a href="#about">Contact Us</a></li>
+  <li class="signup"><a href="#">Sign Up</a></li>
+</ul>
+
+	<!--Header-->
+	<div class="header" style = "position:relative;"><center><img src="sportifylogo.png" style="width:380px;height:120px"></center></div>
+
+	<hr>
+  <div style = "position:absolute; width:100%;height:100%;background: url('crick.jpg')"> </div>
+    <div style = "position:absolute; width:50%;height:70%; background-color:white; left:25%; border-radius: 25px"> 
+    <center> <span style = "color:red; text-shadow: 2px 2px black;font-family: cursive ; font-size: 32; text-decoration: underline; letter-spacing: 2px">Contact Us</span> <br>
+    	<span style = "font-size:22">We would love to hear from you. Please fill this form and we will contact you as soon as possible. </span> </center>
+		<form name = "contact" style = "text-align:left; font-size: 22; padding-left:20px" method = "post" onsubmit = "return validateForm()">
+			<b>E-Mail:</b> <br><input type = "text" name = "email" required><span id = "p1" style = "color:red;"> </span>  <br> <br>
+			<b>First Name:</b><br><input type = "text" name = "fname" required> <span id = "p2" style = "color:red;"> </span> <br> <br>
+			<b>Last Name:</b><br> <input type = "text" name = "lname" required><span id = "p3" style = "color:red;"> </span>  <br> <br>
+            <b>Reason:</b><br>
+            <select name = "con">
+            	<option value = "ssw">See something wrong?</option>
+            	<option value = "ru">Recommend us something</option>
+            	<option value = "saa">Submit an article</option>
+            	<option value = "ot">Other</option>
+            </select> <br> <br>	
+
+            <center> <button type = "submit" style = "font-size: 20;background-color:yellow; border-radius:25px; width: 25%; opacity: 0.8;">Submit</button>
+            </form>
+        </div>
+
+
+
+    </body>
+    </html>
+
+	

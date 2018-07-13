@@ -1,0 +1,150 @@
+ <html>
+
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="homepage.css">
+<link rel="stylesheet" type="text/css" href="csslayout.css">
+<link rel="stylesheet" type="text/css" href="cssipl.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+  .thisSlide {
+  display:none;
+  height: 90%;
+  width: 90%;
+  position: relative;
+}
+
+.cricslide
+{
+  height: 100%
+  width:100%;
+  padding-left: 10%;
+}
+</style>
+
+</head>
+
+<body>
+
+	<!--Header-->
+	<div class="header"><center><img src="sportifylogo.png" style="width:420px;height:130px"></center></div>
+
+	<hr>
+
+		<!--slideshow-->
+
+
+<div class="cricslide" style="background-color: #8c8c8c">
+  <img class="thisSlide" src="1200x628Grid.jpg">
+  <img class="thisSlide" src="C6U1nbbUsAAuaZ5.jpg">
+  <img class="thisSlide" src="Wi-v-Ind-2nd.png">
+  <img class="thisSlide" src="311609-308046-2011-world-cup-getty.jpg">
+ 
+</div>
+<br>  
+
+<hr>
+
+<div style="background-color: #c0ff36; height: 400px" >
+
+<h4 style="text-align: center; font-size: 26px;font-family: Verdana;">WELCOME TO SPORTIFY!</h4>
+
+<p style="font-size:20px;font-family: Calibri;"><center>Sportify.com works to provide you with blazzing fast, reliable and accurate cricket and football updates of all live matches. </center>
+    
+    <br>
+
+    <a href = "cric_home.html">
+ 
+  <div class="cric_card">
+
+    <img src="cric_Capture.png">
+    
+    <h2>CRICKET</h2>
+  
+ 
+  </div>
+</a>
+
+<a href = "foot_home.html">
+<div class="foot_card">
+    <img src="Capture_foot.png">
+    <h2>FOOTBALL</h2>
+   
+  </div>
+</a>
+
+<a href = "contact.html">
+  <div class="contact_card">
+    <img src="5f26fb23871a37d558b5d06700340444.jpg">
+    <h2>CONTACT US</h2>
+    
+  </div>
+</a>
+
+<a href = "signup.html">
+  
+<div class="sign_card">
+    <img src="untitled.png">
+    <h2>SIGN UP</h2>
+    
+  </div>
+</a>
+
+</div>
+<br>
+
+  
+
+
+
+		<!--Footer-->
+
+ 		<div class="footer" style = "position:relative; margin-top: 5%">
+ 			
+       <center> 
+       	<h4>Contact us</h4>
+
+       	<h4> made by Kunaal, Gaurav and Jayesh</h4>
+
+       	<p>© Copyright 2017. All Rights Reserved.</p>
+
+       	
+     
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+      <a href="#"><i class="fa fa-instagram"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a> 
+      <a href="#"><i class="fa fa-snapchat"></i></a> 
+
+
+  
+
+
+ 		</div>
+
+ 		<script>
+var myIndex = 0;
+photo();
+
+function photo() {
+    var i;
+    var x = document.getElementsByClassName("thisSlide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(photo, 1000); 
+}
+</script>
+
+</body>
+</html>
+

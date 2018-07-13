@@ -1,0 +1,182 @@
+<html>
+<head>
+
+  <style>
+  .thisSlide {
+  display:none;
+  height: 60%;
+  width: 60%;
+  position: relative;
+  padding-left: 10%;
+}
+
+.cricslide
+{
+  height: 100%
+  width:100%;
+  padding-left: 20%;
+}
+</style>
+<body>
+
+<link rel="stylesheet" type="text/css" href="csslayout.css">
+<link rel="stylesheet" type="text/css" href="crichome.css">
+
+</head>
+
+<body>
+
+  <!--Nav bar-->
+
+	<ul class="nav"> 
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="cric_home.html">Cricket</a></li>
+  <li><a href="#contact">Football</a></li>
+  <li><a href="#about">Contact Us</a></li>
+  <li class="signup"><a href="#">Sign Up</a></li>
+</ul>
+
+
+
+	<!--Header-->
+	<div class="header"><center><img src="sportifylogo.png" style="width:320px;height:100px"></center></div>
+
+		<!--Cric nav bar-->
+    
+      <ul class="navc">
+  <li><a class="active" href="cric_home.html">Home</a></li>
+  <li><a href="sched_cric.html">Schedule</a></li>
+  <li><a href="teams.html">Teams</a></li>
+  <li><a href="ipl.html">IPL</a></li>
+</ul>
+<br>
+
+
+<!--slideshow-->
+
+
+<div class="cricslide">
+  <img class="thisSlide" src="1200x628Grid.jpg">
+  <img class="thisSlide" src="C6U1nbbUsAAuaZ5.jpg">
+  <img class="thisSlide" src="Wi-v-Ind-2nd.png">
+  <img class="thisSlide" src="311609-308046-2011-world-cup-getty.jpg">
+ 
+</div>
+
+<br>
+
+
+<!--Cards-->
+
+<div class="news">
+    
+    <h3>LATEST NEWS</h3>
+    <hr>
+    <p>Persistent rain forces abandonment of BPL's double-header</p>
+    <hr>
+    <p>Hafeez suspended for illegal bowling action</p>
+    <hr>
+    <p>Sri Lanka cast hopeful eyes towards Angelo Mathews</p>
+    <hr>
+    <p>Woakes hopes to fill the sizeable shoes of Stokes</p>
+    <hr>
+    <p>Brisbane Heat sign Yasir Shah as replacement player</p>
+    <hr>
+    <p>We want to embrace being uncomfortable: Virat Kohli</p>
+    <hr>
+    <p>Afghanistan, Zimbabwe to play T20I and ODI series in Sharjah</p>
+    </div>
+
+
+<div class="rank">
+    
+    <h3>RANKINGS</h3>
+    <hr>
+    <h4>TOP BATSMEN</h4>
+    <table>
+  <tr>
+    <th>Player</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>1. Virat Kohli</td>
+    <td>889 pts</td>
+  </tr>
+  <tr>
+    <td>2. AB de Villiers</td>
+    <td>872 pts</td>
+  </tr>
+  <tr>
+    <td>3. David Warner</td>
+    <td>865 pts</td>
+  </tr>
+  <tr>
+    <td>4. Babar Azam</td>
+    <td>846 pts</td>
+  </tr>
+  <tr>
+    <td>5. Quintin de Kock</td>
+    <td>808 pts</td>
+  </tr>
+</table>
+
+
+
+<h4 style = "position:relative; top:35%">TOP BOWLERS</h4>
+<table style = "position: relative; top:35%">
+  <tr>
+    <th>Players</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>1. Hasan Ali</td>
+    <td>759 pts</td>
+  </tr>
+  <tr>
+    <td>2. Imran Tahir</td>
+    <td>743 pts</td>
+  </tr>
+  <tr>
+    <td>3. Jasprit Bumrah</td>
+    <td>719 pts</td>
+  </tr>
+  <tr>
+    <td>4. Josh Hazelwood</td>
+    <td>714 pts</td>
+  </tr>
+  <tr>
+    <td>5. Kagiso Rabada</td>
+    <td>708 pts</td>
+  </tr>
+</div>
+
+
+
+
+<div class="MI">
+    
+    <h3>Mumbai Indians </h3>
+    <p>VENUE: Wankhede Stadium</p>
+ 
+  </div>
+
+<script>
+var myIndex = 0;
+photo();
+
+function photo() {
+    var i;
+    var x = document.getElementsByClassName("thisSlide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(photo, 1000); 
+}
+</script>
+
+
+</body>
+</html>

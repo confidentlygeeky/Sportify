@@ -1,0 +1,166 @@
+<html>
+<head>
+
+  <style>
+  .thisSlide {
+  display:none;
+  height: 50%;
+  width: 50%;
+  margin-left: 15%;
+}
+
+.w3-content{max-width:980px;margin:auto}
+</style>
+<body>
+
+<link rel="stylesheet" type="text/css" href="csslayout.css">
+<link rel="stylesheet" type="text/css" href="crichome.css">
+
+</head>
+
+<body>
+
+  <!--Nav bar-->
+
+	<ul class="nav"> 
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="cric_home.html" target="blank">Cricket</a></li>
+  <li><a href="#contact">Football</a></li>
+  <li><a href="#about">Contact Us</a></li>
+  <li class="signup"><a href="#">Sign Up</a></li>
+</ul>
+
+
+
+	<!--Header-->
+	<div class="header"><center><img src="sportifylogo.png" style="width:320px;height:100px"></center></div>
+
+		<!--Cric nav bar-->
+    
+      <ul class="nav2" style="padding: 0.5px 440px;">
+  <li><a class="active" href=".html">Home</a></li>
+  <li><a href="sched_foot.html">Fixtures</a></li>
+  <li><a href="foo.html" target="blank">Teams</a></li>
+  <li><a href="transfer.html" target="blank">Transfers</a></li>
+</ul>
+<br>
+
+
+<!--slideshow-->
+
+  <h2 class="w3-center"></h2>
+
+<div class="w3-content w3-section" style="width:220%">
+  <img class="thisSlide" src="premback.jpg">
+  <img class="thisSlide" src="slideprem.jpg">
+  <img class="thisSlide" src="livprem.jpg">
+</div>
+
+<br>
+
+
+<!--Cards-->
+
+<div class="news" style = "background-color: brown;">
+    
+    <h3>Latest News</h3>
+    <hr>
+    <p>1. GW12 Ones to watch: Cesc Fabregas/p>
+    <hr>
+    <p>2. FPL Draft: How risky business can pay off</p>
+    <hr>
+    <p>3. Liverpool's thrilling win at arsenal</p>
+    <hr>
+    <p>4. Coming weeks pivotal for Pope, says Given</p>
+    <hr>
+    <p>5. Nelson equaliser puts Sunderland top</p>
+    <hr>
+    <p>6. Rojo returns in Machester United cup win</p>
+    </div>
+
+
+<div class="rank" style = "background-color: brown;">
+    
+    <h3>Top Scorers</h3>
+    <table>
+  <tr>
+    <th>Player</th>
+    <th>Goals</th>
+  </tr>
+  <tr>
+    <td>1. Sergio Aguero/Harry Kane</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>2. Gabriel Jesus/Lukaku</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>3. Morata/Mohamed Salah/Sterling</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>4. Lacazette</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>5. Vardy</td>
+    <td>6</td>
+  </tr>
+</table>
+<h3 style = "position:relative; top:38%">Most Clean Sheets</h3>
+<table style = "position: relative; top:38%">
+  <tr>
+    <th>Player</th>
+    <th>Number</th>
+  </tr>
+  <tr>
+    <td>1. De Gea</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>2. Courtois</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>3. Lloris</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>4. Lossl</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>5. Ederson</td>
+    <td>5</td>
+  </tr>
+</div>
+
+<
+<div class="MI">
+    
+    <h3>Mumbai Indians </h3>
+    <p>VENUE: Wankhede Stadium</p>
+ 
+  </div>
+
+<script>
+var myIndex = 0;
+photo();
+
+function photo() {
+    var i;
+    var x = document.getElementsByClassName("thisSlide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(photo, 2000); 
+}
+</script>
+
+
+</body>
+</html>

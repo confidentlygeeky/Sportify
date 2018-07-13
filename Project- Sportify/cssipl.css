@@ -1,0 +1,310 @@
+
+.MI{
+	position: absolute;
+	margin-left: 50px;
+	border-style: none;
+	background-color: #0059b3;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+
+.MI h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.MI p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.MI:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.MI img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+.RCB{
+	position: absolute;
+	margin-left: 350px;
+	border-style: none;
+	background-color: #cc3300;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}	
+
+.RCB h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.RCB p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.RCB:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.RCB img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+.KKR{
+	position: absolute;
+	margin-left: 650px;
+	border-style: none;
+	background-color: #4d004d;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}	
+
+.KKR h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.KKR p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.KKR:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.KKR img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+.SRH{
+	position: absolute;
+	margin-left: 950px;
+	border-style: none;
+	background-color: #e67300;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}	
+
+.SRH h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.SRH p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.SRH:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.SRH img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+
+.KXIP{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 380px;
+	
+	border-style: none;
+	background-color: #cc0000;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}	
+
+.KXIP h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.KXIP p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.KXIP:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.KXIP img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+.DD{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 380px;
+	
+	border-style: none;
+	background-color: #000066;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}	
+
+.DD h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.DD p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.DD:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.DD img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+.CSK{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 380px;
+	
+	border-style: none;
+	background-color:#ffff00;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}	
+
+.CSK h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.CSK p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.CSK:hover{
+	border-style: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.CSK img
+{
+	height:210px;
+	width: 230px;
+
+}
+
+.heading
+{
+	background-color: #000080;
+	color: white;
+	height:60px;	
+	padding:0.01em 16px;
+	border-radius: 25px;
+	
+}
+
+.heading2
+{
+	
+	background-color: #000080;
+	color: white;
+	height:50px;
+	position: absolute;
+	top: 200%; 
+	color: black;
+	width: 100%;
+	border-radius: 25px;
+}
+
+.bat table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.bat th, td {
+    text-align: left;
+    padding: 5px;
+}
+    .bat th {
+    background-color: #0059b3;
+    color: white;
+}
+
+.bowl table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.bowl th, td {
+    text-align: left;
+    padding: 5px;
+}
+    .bowl th {
+    background-color: #0059b3;
+    color: white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.something{
+	position: absolute;
+	margin-left: 950px;
+	margin-top: 380px;
+	border-style: none;
+	background-color:#000080;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+
+.something h3{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.something p{
+	font-size: 14px;
+	text-align: center;
+}
+
+.something:hover{
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.something img
+{
+	height:210px;
+	width: 230px;
+
+}

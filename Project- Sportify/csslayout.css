@@ -1,0 +1,160 @@
+    
+
+.header{
+	background-color: white
+}
+
+.body
+{
+	background-color:#e0ebeb;	
+}
+.footer
+{
+	background-color:#d9d9d9;
+    position: relative;
+    margin-top: 10%;
+
+
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 470px;
+}
+
+.navc {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 470px;
+}
+
+.navt {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 450px;
+}
+
+.nav3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 540px;
+}
+
+.nav4{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 455px;
+}
+
+.nav5{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 470px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.nav2 li a:hover{
+	background-color: #2eb8b8;
+}
+
+.nav3 li a:hover{
+	background-color: #2eb8b8;
+}
+
+.nav4 li a:hover{
+	background-color: #00b3b3;
+}
+
+.nav5 li a:hover{
+	background-color: #00b3b3;
+}
+
+.navc li a:hover{
+    background-color: #00b3b3;
+}
+
+.navt li a:hover{
+    background-color: #00b3b3;
+}
+
+li.signup
+{
+	float: right;
+}
+
+/*Team page*/
+
+.ind
+{
+	background-color:#99ddff;	
+	position: relative;
+	padding-top: 50px;
+	
+}
+
+.aus
+{
+	background-color:#006600;
+	position: relative;
+	color:white;
+	text-align: right;
+	padding-top: 50px;
+}
+
+.eng{
+	position: relative;
+	text-align: right;
+       background-color: #001a4d;
+       color:white;
+   }
+
+.nz{
+	position: relative;
+	background-color: #d9d9d9;
+	padding-top: 30px;
+}
+/*---------------------------------------*/

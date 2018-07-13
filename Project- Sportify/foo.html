@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="csslayout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+ {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23.4%;
+    padding: 10px;
+    height: 600px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  float:left;
+  position: absolute;
+  top: 36.8%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 620px;
+  width: 25%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color:#b3e0ff;
+}
+
+.column:hover .overlay {
+  opacity: 0.83;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.myslide {
+  display:none;
+  height: 75%;
+  width: 63%;
+  position: absolute;
+  padding-left: 20%;
+}
+
+.slide
+{
+  height: 50%
+  width:50%;
+}
+
+
+
+</style>
+</head>
+<body>
+
+  <ul class="nav">
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="cric_home.html" target="blank">Cricket</a></li>
+  <li><a href="#" ">Football</a></li>
+  <li><a href="#about">Contact Us</a></li>
+  <li class="signup"><a href="#">Sign Up</a></li>
+</ul>
+
+<div class="header"><center><img src="sportifylogo.png" style="width:320px;height:100px"></center></div>
+
+<ul class="nav5">
+  <li><a class="active" href="foot_home.html">Home</a></li>
+  <li><a href="sched_foot.html">Fixtures</a></li>
+  <li><a href="transfer.html" target="blank">Transfers</a></li>
+  <li><a href="foo.html">Clubs</a></li>
+</ul>
+
+<br>
+
+
+
+<!--PL Teams-->
+
+<div class="row">
+  <div class="column" style="background-color:#000099;background-repeat: no-repeat;">
+    <img src = "chel.png" class="image" style = "position:absolute; height:35%; width:17%; padding-left:48px;padding-top: 150px;">
+    <center>
+    <h2 style = "position:relative;font-family: Verdana; color: white;">Chelsea</h2>
+    <p style = "position:relative;font-family: calibri; color: white;">Captain: GARY CAHIL</p>
+  </center>
+
+  <div class="overlay" style="background-color: #004d99">
+    <div class="text"><b>Chelsea Football Club is a professional football club based in Fulham, London, England that competes in the Premier League, of which they are reigning champions. Founded in 1905, the club's home ground since then has been Stamford Bridge.<br> <br>
+    Chelsea have long-standing rivalries with North London clubs Arsenal and Tottenham Hotspur.<br><br>
+    Chelsea won the Champions League and Europa League in back to back years.</b>>
+  </div>
+  </div>
+  </div>
+
+  <div class="column" style="background-color:#cc0000;">
+      <img src = "man.png" style = "position:absolute; height:36S%; width:17%;padding-left:48px;padding-top: 150px;">
+      <center>
+    <h2 style = "position:relative;font-family: Verdana; color: white">Man Utd</h2>
+    <p style = "position:relative;font-family: calibri;color: white">Captain: ANTONIO VALENCIA</p>
+  </center>
+  <div class="overlay" style = "left: 25%;background-color:#e60000;">
+    <div class="text"><b>Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football.<br> <br>
+    Manchester United have won a record 20 League titles, 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. The club has also won three UEFA Champions Leagues, one UEFA Europa League, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup</b></div>
+  </div>
+  </div>
+
+
+  <div class="column" style="background-color:#659EC7;">
+      <img src = "city.png" style = "position:absolute; height:35%; width:17%; padding-left:48px;padding-top: 150px;">
+      <center>
+    <h2 style = "position:relative; font-family: Verdana;">Man City</h2>
+    <p style = "position:relative;font-family: calibri;">Captain: DAVID SILVA</p>
+  </center>
+
+  <div class="overlay" style = "left: 50%;background-color:#3399ff">
+    <div class="text"><b>Manchester City Football Club is a football club in Manchester, England. Founded in 1880 as St. Mark's (West Gorton), they became Ardwick Association Football Club in 1887 and Manchester City in 1894. .<br> <br>
+    The club's most successful period was in the late 1960s and early 1970s, when they won the League Championship, FA Cup, League Cup and European Cup Winners' Cup under the management team of Joe Mercer and Malcolm Allison.<b></div>
+  </div>
+
+  </div>
+  
+
+  <div class="column" style="background-color:#cc0000;">
+      <img src = "liver.png" style = "position:absolute; height:35%; width:14%; padding-left:65px;padding-top: 150px;">
+      <center>
+    <h2 style = "position:relative;font-family: Verdana;color: white">Liverpool</h2>
+    <p style = "position:relative;font-family: calibri;color: white">Captain: JORDAN HENDERSON</p>
+  </center>
+  <div class="overlay" style = "left: 75%;background-color:#e60000">
+    <div class="text"><b>Liverpool Football Club is a professional association football club based in Liverpool, England. The club has won an English record 5 European Cups, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, a record 8 League Cups, and 15 FA Community Shields.<br>Under the management of Rafa Benítez and captained by Steven Gerrard Liverpool became European champion for the fifth time, winning the 2005 UEFA Champions League Final against Milan in spite of being 3–0 down at half time.</div>
+  </div>
+  </div>
+</div>
+
+<br>  
+
+
+
+<!--PL Slideshow-->
+
+
+
+<div class="slide" >
+  <img class="myslide" src="chelsea-nike.jpg">
+  <img class="myslide" src="gettyimages-686362982.jpg"">
+  <img class="myslide" src="champ.jpg">
+  <img class="myslide" src="manchester_united_fc___wallpaper_full_hd_by_lyp252000-d7r8zzs.png">
+  <img class="myslide" src="29F625661A1E45138B0C43BE4757C616.jpg">
+  <img class="myslide" src="Ajax-v-Manchester-United-UEFA-Europa-League-Final.jpg">
+  <img class="myslide" src="manchester-city-fixtures-graphic-badge-aguero_3484239.jpg">
+  <img class="myslide" src="man-city-champions-2013-2014.jpg">
+  <img class="myslide" src="liverpool.jpg">
+  <img class="myslide" src="Sydney-FC-v-Liverpool-FC.jpg">
+</div>
+
+<br><br>
+
+
+
+
+<!--footer-->
+
+<div class="footer" style = "position:relative; margin-top: 35%">
+      
+       <center> 
+        <h4>Contact us</h4>
+
+        <h4> made by Kunaal, Gaurav and Jayesh</h4>
+
+        <p>© Copyright 2017. All Rights Reserved.</p>
+
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+        <a href="#"><i class="fa fa-instagram"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a> 
+        <a href="#"><i class="fa fa-snapchat"></i></a>
+
+    </div>
+
+    <script>
+var myIndex = 0;
+slidex();
+
+function slidex() {
+    var i;
+    var x = document.getElementsByClassName("myslide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(slidex, 1000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

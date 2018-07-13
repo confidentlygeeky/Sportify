@@ -1,0 +1,60 @@
+.header{
+	background-color: white
+}
+
+.body
+{
+	background-color:#e0ebeb;	
+}
+.footer
+{
+	background-color:#d9d9d9;
+
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+
+.nav5{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #669999;
+    padding: 0.5px 470px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li.signup
+{
+	float: right;
+}
+
+.
+
+.right1, .right2 {
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    height: 120px;
